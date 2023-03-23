@@ -1,0 +1,31 @@
+:root{
+    --accent-color: #2196F3;
+    --txt-color: #757575;
+    --secondary-bg: #F5F4FA;
+    --ftr-bg: #2F303A;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.menu-txt:hover,
+.menu-txt:focus{
+    color: var(--accent-color);
+}
+
+.txt{
+    color: var(--txt-color);
+}
+
+.ftr{
+    background-color: var(--ftr-bg);
+}
+
+.address{
+    color: var(--secondary-bg);
+}

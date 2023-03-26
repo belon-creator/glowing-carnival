@@ -11,10 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="main-header">
+     <div class="container">
       <a class="logo link" href="/">
         <img src="./img/WebStudio.png" alt="logo" width="145" />
       </a>
@@ -42,113 +45,148 @@
           >
         </li>
       </ul>
+     </div>
     </header>
 
     <main>
       <ul class="portfolio-menu list">
         <li class="portfolio-menu--item">
-          <button type="button">All</button>
+          <button class="btn" type="button">All</button>
         </li>
         <li class="portfolio-menu--item">
-          <button type="button">Web-sites</button>
+          <button class="btn" type="button">Web-sites</button>
         </li>
         <li class="portfolio-menu--item">
-          <button type="button">Apps</button>
+          <button class="btn" type="button">Apps</button>
         </li>
         <li class="portfolio-menu--item">
-          <button type="button">Design</button>
+          <button class="btn" type="button">Design</button>
         </li>
         <li class="portfolio-menu--item">
-          <button type="button">Marketing</button>
+          <button class="btn" type="button">Marketing</button>
         </li>
       </ul>
-
+      
+    <section class="portfolio">
       <ul class="portfolio-list list">
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-1.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Technoduck</h2>
-            <p class="txt">Web-site</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Technoduck</h2>
+              <p class="txt">Web-site</p> 
+            </div>                    
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-2.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Poster New Orlean vs Golden Star</h2>
-            <p class="txt">Design</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Poster New Orlean vs Golden Star</h2>
+              <p class="txt">Design</p>
+            </div>                      
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-3.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Seafood restaurant</h2>
-            <p class="txt">Apps</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Seafood restaurant</h2>
+              <p class="txt">Apps</p> 
+            </div>                     
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-4.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Project Prime</h2>
-            <p class="txt">Marketing</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Project Prime</h2>
+              <p class="txt">Marketing</p>
+            </div>            
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-5.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Project Boxes</h2>
-            <p class="txt">Apps</p>
-          </a>
+            </a>
+            <div class="card-content"></div>
+            <h2 class="card-title">Project Boxes</h2>
+            <p class="txt">Apps</p>          
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-6.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Inspiration has no Borders</h2>
-            <p class="txt">Web-site</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Inspiration has no Borders</h2>
+              <p class="txt">Web-site</p>  
+            </div>                    
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-7.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Limited Edition</h2>
-            <p class="txt">Design</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Limited Edition</h2>
+              <p class="txt">Design</p> 
+            </div>                    
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-8.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Project LAB</h2>
-            <p class="txt">Marketing</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Project LAB</h2>
+              <p class="txt">Marketing</p>  
+            </div>                    
         </li>
+
         <li class="portfolio-list--item">
           <a href="" class="link">
             <img src="./img/pf-9.jpg" alt="" width="370" />
-            <h2 class="menu-txt">Growing Business</h2>
-            <p class="txt">Apps</p>
-          </a>
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Growing Business</h2>
+              <p class="txt">Apps</p>
+            </div>                  
         </li>
       </ul>
+    </section>
     </main>
 
     <footer class="ftr">
-      <a class="logo link" href="/">
-        <img src="./img/WebStudio.png" alt="logo" width="145" />
-      </a>
+      <div class="container">
+        <a class="logo link" href="/">
+          <img src="./img/WebStudio.png" alt="logo" width="145" />
+        </a>
 
-      <address class="address">
-        695 Park Ave, New York, NY 10065, United States
-      </address>
+    <address class="address">
+      695 Park Ave, New York, NY 10065, <br />
+      United States
+    </address>
 
-      <ul class="contacts list">
-        <li class="cotact-item">
-          <a class="menu-txt link" href="tel:+380639480163">Call us</a>
-        </li>
-        <li class="cotact-item">
-          <a class="menu-txt link" href="mailto:belon8911@gmail.com"
-            >Send mail</a
-          >
-        </li>
-      </ul>
+    <ul class="contacts list">
+      <li class="cotact-item">
+        <a class="menu-txt menu-txt-ftr link" href="tel:+380639480163"
+          >Call us</a
+        >
+      </li>
+      <li class="cotact-item">
+        <a
+          class="menu-txt menu-txt-ftr link"
+          href="mailto:belon8911@gmail.com"
+          >Send mail</a
+        >
+      </li>
+    </ul>
+   </div>
     </footer>
   </body>
 </html>

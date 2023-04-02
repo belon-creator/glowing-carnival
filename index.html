@@ -11,41 +11,50 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="main-header">
-     <div class="container">
-      <a class="logo link" href="/">
-        <img src="./img/WebStudio.png" alt="logo" width="145" />
-      </a>
-      <nav class="main-nav">
-        <ul class="logo-menu list">
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="">Studio</a>
+      <div class="container">
+        <a class="logo link" href="/">
+          <img src="./img/WebStudio.png" alt="logo" width="145" />
+        </a>
+        <nav class="main-nav">
+          <ul class="logo-menu list">
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="">Studio</a>
+            </li>
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts list">
+          <li class="cotact-item">
+            <svg class="contact-icon">
+              <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
           </li>
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="">Contacts</a>
+          <li class="cotact-item">
+            <svg class="contact-icon">
+              <use href="./img/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
+              >Send mail</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="contacts list">
-        <li class="cotact-item">
-          <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
-        </li>
-        <li class="cotact-item">
-          <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
-            >Send mail</a
-          >
-        </li>
-      </ul>
-     </div>
+      </div>
     </header>
 
     <section class="hero">
@@ -60,6 +69,9 @@
       <section class="about">
         <ul class="about-list list">
           <li class="about-list--item">
+            <svg class="about-icon">
+              <use href="./img/symbol-defs.svg#icon-antenna"></use>
+            </svg>
             <h2 class="about-list--heading">ATTENTION TO DETAILS</h2>
             <p class="about-list--descr txt">
               We go into all the details and processes of your business to
@@ -67,6 +79,9 @@
             </p>
           </li>
           <li class="about-list--item">
+            <svg class="about-icon">
+              <use href="./img/symbol-defs.svg#icon-clock"></use>
+            </svg>
             <h2 class="about-list--heading">PUNCTUALITY</h2>
             <p class="about-list--descr txt">
               With us, you can feel safe and secure. An important principle of
@@ -74,6 +89,9 @@
             </p>
           </li>
           <li class="about-list--item">
+            <svg class="about-icon">
+              <use href="./img/symbol-defs.svg#icon-diagram"></use>
+            </svg>
             <h2 class="about-list--heading">PLANNING</h2>
             <p class="about-list--descr txt">
               You will be able to observe and participate in every phase of
@@ -81,6 +99,9 @@
             </p>
           </li>
           <li class="about-list--item">
+            <svg class="about-icon">
+              <use href="./img/symbol-defs.svg#icon-astronaut"></use>
+            </svg>
             <h2 class="about-list--heading">MODERN TECHNOLOGIES</h2>
             <p class="about-list--descr txt">
               We use innovative tools to solve assigned tasks. It's time to
@@ -92,13 +113,27 @@
 
       <section>
         <h2 class="section-heading">What we do</h2>
-        
-          <ul class="wwd list">
-            <li><img src="./img/wwd1.jpg" alt="img" width="370" /></li>
-            <li><img src="./img/wwd2.jpg" alt="img" width="370" /></li>
-            <li><img src="./img/wwd3.jpg" alt="img" width="370" /></li>
-          </ul>
-        
+
+        <ul class="wwd list">
+          <li class="wwd--list-item">
+            <img src="./img/wwd1.jpg" alt="img" width="370" />
+            <div class="wwd-overlay">
+              <p class="wwd-txt">DESKTOP APPS</p>
+            </div>
+          </li>
+          <li class="wwd--list-item">
+            <img src="./img/wwd2.jpg" alt="img" width="370" />
+            <div class="wwd-overlay">
+              <p class="wwd-txt">Mobile APPS</p>
+            </div>
+          </li>
+          <li class="wwd--list-item">
+            <img src="./img/wwd3.jpg" alt="img" width="370" />
+            <div class="wwd-overlay">
+              <p class="wwd-txt">DESIGN SOLUTIONS</p>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <section class="team">
@@ -108,6 +143,39 @@
             <img src="./img/team1.jpg" alt="" width="270" />
             <p class="team-name">Christopher Walker</p>
             <p class="team-occupation txt">Product Designer</p>
+            <ul class="social-list list">
+              <li class="social-list--item">
+                <a class="social-list--link link" href="">
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-list--item">
+                <a class="social-list--link link" href="">
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-list--item">
+                <a class="social-list--link link" href="">
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-list--item">
+                <a class="social-list--link link" href="">
+                  <svg class="social-icon">
+                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="team-list--item">
             <img src="./img/team2.jpg" alt="" width="270" />
@@ -134,26 +202,26 @@
           <img src="./img/WebStudio.png" alt="logo" width="145" />
         </a>
 
-    <address class="address">
-      695 Park Ave, New York, NY 10065, <br />
-      United States
-    </address>
+        <address class="address">
+          695 Park Ave, New York, NY 10065, <br />
+          United States
+        </address>
 
-    <ul class="contacts list">
-      <li class="cotact-item">
-        <a class="menu-txt menu-txt-ftr link" href="tel:+380639480163"
-          >Call us</a
-        >
-      </li>
-      <li class="cotact-item">
-        <a
-          class="menu-txt menu-txt-ftr link"
-          href="mailto:belon8911@gmail.com"
-          >Send mail</a
-        >
-      </li>
-    </ul>
-   </div>
+        <ul class="contacts list">
+          <li class="cotact-item">
+            <a class="menu-txt menu-txt-ftr link" href="tel:+380639480163"
+              >Call us</a
+            >
+          </li>
+          <li class="cotact-item">
+            <a
+              class="menu-txt menu-txt-ftr link"
+              href="mailto:belon8911@gmail.com"
+              >Send mail</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

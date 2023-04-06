@@ -62,7 +62,32 @@
         EFFECTIVE SOLUTIONS FOR <br />
         YOUR BUSINESS
       </h1>
-      <a class="hero-btn link" href="#">Request our service</a>
+      <a  class="hero-btn link" href="#" data-modal-open>Request our service</a>
+
+
+      <div  class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button  type="button" class="modal-btn" data-modal-close>
+            <img src="./img/close-modal.png" alt="close" width="18">
+          </button>
+        </div>
+      </div>
+
+      <script>
+     const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
+      </script>
+     
     </section>
 
     <main>
@@ -418,5 +443,7 @@
 
       
     </footer>
+
+  
   </body>
 </html>

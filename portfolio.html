@@ -17,35 +17,41 @@
 
   <body>
     <header class="main-header">
-     <div class="container">
-      <a class="logo link" href="/">
-        <img src="./img/WebStudio.png" alt="logo" width="145" />
-      </a>
-      <nav class="main-nav">
-        <ul class="logo-menu list">
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="./index.html">Studio</a>
+      <div class="container">
+        <a class="logo link" href="/">
+          <img src="./img/WebStudio.png" alt="logo" width="145" />
+        </a>
+        <nav class="main-nav">
+          <ul class="logo-menu list">
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="">Studio</a>
+            </li>
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="logo-menu--item">
+              <a class="menu-txt link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts list">
+          <li class="cotact-item">
+            <svg class="contact-icon">
+              <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
           </li>
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="">Portfolio</a>
-          </li>
-          <li class="logo-menu--item">
-            <a class="menu-txt link" href="">Contacts</a>
+          <li class="cotact-item">
+            <svg class="contact-icon">
+              <use href="./img/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
+              >Send mail</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="contacts list">
-        <li class="cotact-item">
-          <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
-        </li>
-        <li class="cotact-item">
-          <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
-            >Send mail</a
-          >
-        </li>
-      </ul>
-     </div>
+      </div>
     </header>
 
     <main>
@@ -76,7 +82,8 @@
             <div class="card-content">
               <h2 class="card-title">Technoduck</h2>
               <p class="txt">Web-site</p> 
-            </div>                    
+            </div>   
+                             
         </li>
 
         <li class="portfolio-list--item">
@@ -113,9 +120,10 @@
           <a href="" class="link">
             <img src="./img/pf-5.jpg" alt="" width="370" />
             </a>
-            <div class="card-content"></div>
-            <h2 class="card-title">Project Boxes</h2>
-            <p class="txt">Apps</p>          
+            <div class="card-content">
+              <h2 class="card-title">Project Boxes</h2>
+              <p class="txt">Apps</p> 
+            </div>                     
         </li>
 
         <li class="portfolio-list--item">
@@ -161,32 +169,76 @@
     </section>
     </main>
 
-    <footer class="ftr">
+    <footer class="ftr" id="contacts">
       <div class="container">
-        <a class="logo link" href="/">
-          <img src="./img/WebStudio.png" alt="logo" width="145" />
-        </a>
+        <div class="adress-container">
+          <a class="logo link" href="/">
+            <img src="./img/WebStudio.png" alt="logo" width="145" />
+          </a>
+  
+          <address class="address">
+            695 Park Ave, New York, NY 10065, <br />
+            United States
+          </address>
+  
+          <ul class="contacts list">
+            <li class="cotact-item">
+              <a class="menu-txt menu-txt-ftr link" href="tel:+380639480163"
+                >Call us</a
+              >
+            </li>
+            <li class="cotact-item">
+              <a
+                class="menu-txt menu-txt-ftr link"
+                href="mailto:belon8911@gmail.com"
+                >Send mail</a
+              >
+            </li>
+          </ul>
+        </div>
+     
 
-    <address class="address">
-      695 Park Ave, New York, NY 10065, <br />
-      United States
-    </address>
+        <div class="ftr-social">
+          <h2 class="ftr-social-title">Find us on</h2>
+          <ul class="ftr-social--list list">
+            <li class="ftr-social--list--item">
+              <a class="social-list--link link" href="">
+                <svg class="social-icon ftr-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li class="ftr-social--list--item">
+              <a class="social-list--link link" href="">
+                <svg class="social-icon ftr-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li class="ftr-social--list--item">
+              <a class="social-list--link link" href="">
+                <svg class="social-icon ftr-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li class="ftr-social--list--item">
+              <a class="social-list--link link" href="">
+                <svg class="social-icon ftr-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+          </ul>
+        </div>
+      </div>
 
-    <ul class="contacts list">
-      <li class="cotact-item">
-        <a class="menu-txt menu-txt-ftr link" href="tel:+380639480163"
-          >Call us</a
-        >
-      </li>
-      <li class="cotact-item">
-        <a
-          class="menu-txt menu-txt-ftr link"
-          href="mailto:belon8911@gmail.com"
-          >Send mail</a
-        >
-      </li>
-    </ul>
-   </div>
+      
     </footer>
   </body>
 </html>

@@ -67,6 +67,37 @@
 
       <div  class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <h2 class="modal-title">Leave your information and we'll call you back</h2>
+          
+          <form action="" class="modal-form">
+          <label for="">
+            <span class="input-name">Name</span>
+            <input class="input-field" type="text" checked>            
+          </label>
+
+          <label for="">
+            <span class="input-name">Telephone</span>
+            <input class="input-field" type="tel">            
+          </label>
+
+          <label for="">
+            <span class="input-name">E-mail</span>
+            <input class="input-field" type="email">            
+          </label>          
+
+          <label for="">
+            <span class="input-name">Comments</span>
+            <textarea class="input-field comment" name=""  cols="30" rows=""></textarea>
+          </label>
+
+          <label class="policy" for="">
+            <input type="checkbox" name="" id="">
+            <span class="input-name">I agree with the newsletter and accept the Terms and Conditions</span>
+          </label>
+                    
+          <button type="submit" class="btn-subscribe modal-subscribe">Send</button>
+        </form>
+
           <button  type="button" class="modal-btn" data-modal-close>
             <img src="./img/close-modal.png" alt="close" width="18">
           </button>
@@ -439,8 +470,14 @@
         </li>
           </ul>
         </div>
+
+        <form action="" class="ftr-subscribe">
+          <input type="email" placeholder="E-mail" class="ftr-mail">
+          <button type="submit" class="btn-subscribe">Subscribe</button>
+        </form>
       </div>
 
+     
       
     </footer>
 

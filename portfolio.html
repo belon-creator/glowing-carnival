@@ -21,7 +21,10 @@
         <a class="logo link" href="/">
           <img src="./img/WebStudio.png" alt="logo" width="145" />
         </a>
-        <nav class="main-nav">
+
+<button class="mobile-menu-btn" data-menu-button></button>
+
+        <nav class="main-nav" data-menu>
           <ul class="logo-menu list">
             <li class="logo-menu--item">
               <a class="menu-txt link" href="./index.html">Studio</a>
@@ -33,24 +36,26 @@
               <a class="menu-txt link" href="#contacts">Contacts</a>
             </li>
           </ul>
+
+          <ul class="contacts list">
+            <li class="cotact-item">
+              <svg class="contact-icon">
+                <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
+            </li>
+            <li class="cotact-item">
+              <svg class="contact-icon">
+                <use href="./img/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
+                >Send mail</a
+              >
+            </li>
+          </ul>
         </nav>
 
-        <ul class="contacts list">
-          <li class="cotact-item">
-            <svg class="contact-icon">
-              <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-            </svg>
-            <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
-          </li>
-          <li class="cotact-item">
-            <svg class="contact-icon">
-              <use href="./img/symbol-defs.svg#icon-envelope"></use>
-            </svg>
-            <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
-              >Send mail</a
-            >
-          </li>
-        </ul>
+      
       </div>
     </header>
 
@@ -74,150 +79,152 @@
       </ul>
       
     <section class="portfolio">
-      <ul class="portfolio-list list">
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-1.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Technoduck</h2>
-              <p class="txt">Web-site</p> 
-            </div>   
-
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-2.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Poster New Orlean vs Golden Star</h2>
-              <p class="txt">Design</p>
-            </div>                      
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-3.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Seafood restaurant</h2>
-              <p class="txt">Apps</p> 
-            </div>                     
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-4.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Project Prime</h2>
-              <p class="txt">Marketing</p>
-            </div>            
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-5.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Project Boxes</h2>
-              <p class="txt">Apps</p> 
-            </div>                     
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-6.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Inspiration has no Borders</h2>
-              <p class="txt">Web-site</p>  
-            </div>                    
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-7.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Limited Edition</h2>
-              <p class="txt">Design</p> 
-            </div>                    
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-8.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Project LAB</h2>
-              <p class="txt">Marketing</p>  
-            </div>                    
-        </li>
-
-        <li class="portfolio-list--item">
-          <div class="img-thumb">
-            <a href="" class="link">            
-              <img src="./img/pf-9.jpg" alt="" width="370" />
-              </a>
-              <div class="overlay">
-                <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
-              </div>
-          </div>
-            <div class="card-content">
-              <h2 class="card-title">Growing Business</h2>
-              <p class="txt">Apps</p>
-            </div>                  
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="portfolio-list list">
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-1.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Technoduck</h2>
+                <p class="txt">Web-site</p> 
+              </div>   
+  
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-2.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Poster New Orlean vs Golden Star</h2>
+                <p class="txt">Design</p>
+              </div>                      
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-3.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Seafood restaurant</h2>
+                <p class="txt">Apps</p> 
+              </div>                     
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-4.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Project Prime</h2>
+                <p class="txt">Marketing</p>
+              </div>            
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-5.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Project Boxes</h2>
+                <p class="txt">Apps</p> 
+              </div>                     
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-6.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Inspiration has no Borders</h2>
+                <p class="txt">Web-site</p>  
+              </div>                    
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-7.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Limited Edition</h2>
+                <p class="txt">Design</p> 
+              </div>                    
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-8.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Project LAB</h2>
+                <p class="txt">Marketing</p>  
+              </div>                    
+          </li>
+  
+          <li class="portfolio-list--item">
+            <div class="img-thumb">
+              <a href="" class="link">            
+                <img src="./img/pf-9.jpg" alt="" width="370" />
+                </a>
+                <div class="overlay">
+                  <p class="overlay-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione, accusamus dolores quisquam fugit atque?</p>
+                </div>
+            </div>
+              <div class="card-content">
+                <h2 class="card-title">Growing Business</h2>
+                <p class="txt">Apps</p>
+              </div>                  
+          </li>
+        </ul>
+      </div>
     </section>
     </main>
 
     <footer class="ftr" id="contacts">
       <div class="container">
         <div class="adress-container">
-          <a class="logo link" href="/">
+          <a class="ftr-logo logo link" href="/">
             <img src="./img/WebStudio.png" alt="logo" width="145" />
           </a>
   
@@ -281,9 +288,33 @@
         </li>
           </ul>
         </div>
+
+        <form action="" class="ftr-subscribe">
+          <input type="email" placeholder="E-mail" class="ftr-mail">
+          <button type="submit" class="btn-subscribe">Subscribe</button>
+        </form>
       </div>
 
+     
       
     </footer>
+
+    <!-- open mobile-menu -->
+    <script>
+      (() => {
+     const menuBtnRef = document.querySelector("[data-menu-button]");
+     const mobileMenuRef = document.querySelector("[data-menu]");
+   
+     menuBtnRef.addEventListener("click", () => {
+       const expanded =
+         menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+   
+       menuBtnRef.classList.toggle("is-open");
+       menuBtnRef.setAttribute("aria-expanded", !expanded);
+   
+       mobileMenuRef.classList.toggle("is-open");
+     });
+   })();
+       </script>
   </body>
 </html>

@@ -24,7 +24,10 @@
         <a class="logo link" href="/">
           <img src="./img/WebStudio.png" alt="logo" width="145" />
         </a>
-        <nav class="main-nav">
+
+<button class="mobile-menu-btn" data-menu-button></button>
+
+        <nav class="main-nav" data-menu>
           <ul class="logo-menu list">
             <li class="logo-menu--item">
               <a class="menu-txt link" href="">Studio</a>
@@ -36,24 +39,26 @@
               <a class="menu-txt link" href="#contacts">Contacts</a>
             </li>
           </ul>
+
+          <ul class="contacts list">
+            <li class="cotact-item">
+              <svg class="contact-icon">
+                <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
+            </li>
+            <li class="cotact-item">
+              <svg class="contact-icon">
+                <use href="./img/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
+                >Send mail</a
+              >
+            </li>
+          </ul>
         </nav>
 
-        <ul class="contacts list">
-          <li class="cotact-item">
-            <svg class="contact-icon">
-              <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-            </svg>
-            <a class="menu-txt link txt" href="tel:+380639480163">Call us</a>
-          </li>
-          <li class="cotact-item">
-            <svg class="contact-icon">
-              <use href="./img/symbol-defs.svg#icon-envelope"></use>
-            </svg>
-            <a class="menu-txt link txt" href="mailto:belon8911@gmail.com"
-              >Send mail</a
-            >
-          </li>
-        </ul>
+      
       </div>
     </header>
 
@@ -104,83 +109,73 @@
         </div>
       </div>
 
-      <script>
-     const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
-
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-      </script>
+   
      
     </section>
 
     <main>
       <section class="about">
-        <ul class="about-list list">
-          <li class="about-list--item">
-            <div class="about-icon-container">
-              <svg class="about-icon icon">
-                <use href="./img/symbol-defs.svg#icon-antenna"></use>
-              </svg>
-            </div>
-
-            <h2 class="about-list--heading">ATTENTION TO DETAILS</h2>
-            <p class="about-list--descr txt">
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li class="about-list--item">
-            <div class="about-icon-container">
-              <svg class="about-icon icon">
-                <use href="./img/symbol-defs.svg#icon-clock"></use>
-              </svg>
-            </div>
-
-            <h2 class="about-list--heading">PUNCTUALITY</h2>
-            <p class="about-list--descr txt">
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and respect the agreed deadlines.
-            </p>
-          </li>
-          <li class="about-list--item">
-            <div class="about-icon-container">
-              <svg class="about-icon icon">
-                <use href="./img/symbol-defs.svg#icon-diagram"></use>
-              </svg>
-            </div>
-
-            <h2 class="about-list--heading">PLANNING</h2>
-            <p class="about-list--descr txt">
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li class="about-list--item">
-            <div class="about-icon-container">
-              <svg class="about-icon icon">
-                <use href="./img/symbol-defs.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-
-            <h2 class="about-list--heading">MODERN TECHNOLOGIES</h2>
-            <p class="about-list--descr txt">
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="about-list list">
+            <li class="about-list--item">
+              <div class="about-icon-container">
+                <svg class="about-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+  
+              <h2 class="about-list--heading">ATTENTION TO DETAILS</h2>
+              <p class="about-list--descr txt">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li class="about-list--item">
+              <div class="about-icon-container">
+                <svg class="about-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+  
+              <h2 class="about-list--heading">PUNCTUALITY</h2>
+              <p class="about-list--descr txt">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and respect the agreed deadlines.
+              </p>
+            </li>
+            <li class="about-list--item">
+              <div class="about-icon-container">
+                <svg class="about-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
+  
+              <h2 class="about-list--heading">PLANNING</h2>
+              <p class="about-list--descr txt">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li class="about-list--item">
+              <div class="about-icon-container">
+                <svg class="about-icon icon">
+                  <use href="./img/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+  
+              <h2 class="about-list--heading">MODERN TECHNOLOGIES</h2>
+              <p class="about-list--descr txt">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section>
-        <h2 class="section-heading">What we do</h2>
+      <section class="wwd-section">
+        <div class="container">
+          <h2 class="section-heading">What we do</h2>
 
         <ul class="wwd list">
           <li class="wwd--list-item">
@@ -202,10 +197,12 @@
             </div>
           </li>
         </ul>
+        </div>
       </section>
 
       <section class="team">
-        <h2 class="section-heading">Our Team</h2>
+        <div class="container">
+          <h2 class="section-heading">Our Team</h2>
         <ul class="team-list list">
           <li class="team-list--item">
             <img src="./img/team1.jpg" alt="" width="270" />
@@ -361,6 +358,7 @@
             </ul>
           </li>
         </ul>
+        </div>
       </section>
 
       <section class="customers">
@@ -406,7 +404,7 @@
     <footer class="ftr" id="contacts">
       <div class="container">
         <div class="adress-container">
-          <a class="logo link" href="/">
+          <a class="ftr-logo logo link" href="/">
             <img src="./img/WebStudio.png" alt="logo" width="145" />
           </a>
   
@@ -481,6 +479,39 @@
       
     </footer>
 
-  
+    <!-- open modal script -->
+
+    <script>
+      const refs = {
+     openModalBtn: document.querySelector('[data-modal-open]'),
+     closeModalBtn: document.querySelector('[data-modal-close]'),
+     modal: document.querySelector('[data-modal]'),
+      };
+ 
+     refs.openModalBtn.addEventListener('click', toggleModal);
+     refs.closeModalBtn.addEventListener('click', toggleModal);
+ 
+          function toggleModal() {
+             refs.modal.classList.toggle('is-hidden');
+             }
+    </script>
+
+    <!-- open mobile-menu -->
+    <script>
+   (() => {
+  const menuBtnRef = document.querySelector("[data-menu-button]");
+  const mobileMenuRef = document.querySelector("[data-menu]");
+
+  menuBtnRef.addEventListener("click", () => {
+    const expanded =
+      menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+
+    menuBtnRef.classList.toggle("is-open");
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
+
+    mobileMenuRef.classList.toggle("is-open");
+  });
+})();
+    </script>
   </body>
 </html>
